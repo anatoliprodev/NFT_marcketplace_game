@@ -1,0 +1,23 @@
+[programs.localnet]
+synesis_program = "Fg6PaFpoGXkYsidMpWTK6W2BeZ7FEfcYkg476zPFsLnS"
+
+[programs.devnet]
+synesis_program = "Sns8ZPjkAART2Hfmcs4CjwN1RgrdJsZhyEptXkrNoY8"
+#synesis_program = "Fg6PaFpoGXkYsidMpWTK6W2BeZ7FEfcYkg476zPFsLnS"
+
+#[programs.testnet]
+#synesis_program = "Sns8ZPjkAART2Hfmcs4CjwN1RgrdJsZhyEptXkrNoY8"
+
+#[programs.mainnet]
+#synesis_program = "Fg6PaFpoGXkYsidMpWTK6W2BeZ7FEfcYkg476zPFsLnS"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "devnet"
+wallet = "/home/work/.config/solana/id.json"
+
+[scripts]
+test = "yarn admin-test"
+#test = "yarn marketplace-test"

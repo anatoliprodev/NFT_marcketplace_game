@@ -1,0 +1,24 @@
+[package]
+name = "synesis_program"
+version = "0.1.0"
+description = "Created with Anchor"
+edition = "2018"
+
+[lib]
+crate-type = ["cdylib", "lib"]
+name = "synesis_program"
+
+[features]
+no-entrypoint = []
+no-idl = []
+cpi = ["no-entrypoint"]
+#default = []
+default = ["local-testing"]
+local-testing = []
+dev-testing = []
+
+[dependencies]
+anchor-lang = "0.19.0"
+anchor-spl = { version = "0.19.0" }
+spl-token = { version = "3.2.0", features = ["no-entrypoint"] }
+#borsh = "0.9.1"

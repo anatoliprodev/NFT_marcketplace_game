@@ -1,0 +1,7 @@
+use anchor_lang::prelude::*;
+////////////////////////////////
+/// 
+/// Verify NFT mint address merkle tree
+/// Verify word hash merkle tree
+/// 
+////////////////////////////////
